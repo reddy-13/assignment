@@ -1,0 +1,60 @@
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: 0px;
+
+}
+
+/* list item css */
+.list-item{
+    border: 1px solid grey;
+    background:#fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    
+}
+
+/* list item css ends here */
+
+
+/* details css */
+.details{
+    /* padding-left: 15px; */
+    padding-top: 5px;
+}
+
+.details h3{ 
+    margin: 5px 0px;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.details p{
+    margin: 5px 0px;
+    text-transform: lowercase;
+    color: #666;
+}
+/* details css ends */
+
+
+/* options css  */
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favroute{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+.delete{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+/* options css ends here */
