@@ -4,7 +4,7 @@ import "./Pagination.css";
 
 const Pagination = ({ firendsPerPage, totalFriends, paginate }) => {
   const pageNumbers = [];
-  const [isActive, setIsActive] = useState(0);
+  const [isActive, setIsActive] = useState(1);
 
   for (let i = 1; i <= Math.ceil(totalFriends / firendsPerPage); i++) {
     pageNumbers.push(i);

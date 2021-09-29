@@ -7,7 +7,7 @@ ul {
 
 /* list item css */
 .list-item{
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     background:#fff;
     display: flex;
     justify-content: space-between;
@@ -27,7 +27,7 @@ ul {
 .details h3{ 
     margin: 5px 0px;
     text-transform: capitalize;
-    color: #333;
+    color: #444;
 }
 
 .details p{
