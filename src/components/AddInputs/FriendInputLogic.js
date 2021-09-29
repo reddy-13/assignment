@@ -40,8 +40,11 @@ const FriendInputLogic = () => {
 
   // delete Friend
   const HandleDelete = (id) => {
-    const remainingFriends = name.filter((friend) => id !== friend.id);
-    setName(remainingFriends);
+    const con = window.confirm("Are you sure want to delete ?");
+    if (con) {
+      const remainingFriends = name.filter((friend) => id !== friend.id);
+      setName(remainingFriends);
+    }
   };
 
   return { name, setName, addFriendName, handleFavroute, HandleDelete };

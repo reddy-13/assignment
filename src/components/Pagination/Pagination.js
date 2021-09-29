@@ -20,7 +20,6 @@ const Pagination = ({ firendsPerPage, totalFriends, paginate }) => {
                 paginate(number);
                 setIsActive(number);
               }}
-              href="!#"
               className={`page-link ${isActive === number ? "active" : ""}`}
             >
               {number}
