@@ -19,7 +19,7 @@ const FriendsList = ({ friendsData, setFavroute, onDelete, searchTerm }) => {
           <div className="options">
             <button
               type="button"
-              className="favroute"
+              className="favourite"
               onClick={() => setFavroute(friend.id)}
             >
               {friend.isFavroute === true ? (

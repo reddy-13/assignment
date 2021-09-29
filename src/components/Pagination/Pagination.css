@@ -16,11 +16,11 @@
   }
 
   .page-item a.active {
-    background-color: #b9b9b9;
+    background-color: #02AAB0;
     color: white;
   }
   
-  .page-item a:hover:not(.active) {background-color: #ddd;}
+  .page-item a:hover:not(.active) {background-color: #00CDAC; color: #fff;}
 
   .page-item a {
     border-radius: 5px;

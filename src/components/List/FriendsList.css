@@ -12,6 +12,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
+    transition: 1s;
     
 }
 
@@ -27,7 +28,7 @@ ul {
 .details h3{ 
     margin: 5px 0px;
     text-transform: capitalize;
-    color: #444;
+    color: #455963;
 }
 
 .details p{
@@ -45,16 +46,37 @@ ul {
     justify-content: center;
 }
 
-.favroute{
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin: 0px 10px;
+.options button {
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
 }
+
+
 .delete{
     border: 1px solid gray;
     border-radius: 5px;
     padding: 5px 10px;
     margin: 0px 10px;
+}
+
+.fas.fa-star{
+    color:rgb(175, 175, 17);
+}
+.favourite:hover {
+    color:rgb(175, 175, 17);
+}
+
+.fa-trash-alt{
+    color: rgb(214, 14, 14);
+}
+
+.delete:hover{
+
+    background-color: rgb(214, 14, 14);
+}
+
+.delete:hover .fa-trash-alt{
+    color: white;
 }
 /* options css ends here */

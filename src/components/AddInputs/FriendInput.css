@@ -1,11 +1,20 @@
 input[type=text]{
     width: 100%;
-    padding: 10px 20px;
+    padding: 20px 20px;
    border :1px solid#ddd;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 } 
+
 
 input[type=text]:focus {
     border: 1px solid #d2d2d2 !important;
     box-sizing: border-box;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color:#6e6d6d;
+    font-weight:light;
 }
+
