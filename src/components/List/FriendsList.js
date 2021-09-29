@@ -14,7 +14,7 @@ const FriendsList = ({ friendsData, setFavroute, onDelete, searchTerm }) => {
         <div className="list-item">
           <div className="details">
             <h3>{friend.name}</h3>
-            <p>{friend.friendType}</p>
+            {friend.isFavroute === true ? <p>{friend.friendType}</p> : null}
           </div>
           <div className="options">
             <button
