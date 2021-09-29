@@ -1,7 +1,12 @@
+body{
+    margin: 0;
+}
+
 .main{
     height: 100vh;
     display: flex;
     /* align-items: center;  */
     justify-content: center;
     background-color: #f8f8f8;
+    padding-top: 20px;
 }

@@ -4,11 +4,13 @@ const FriendInputLogic = () => {
   const [name, setName] = useState([]);
 
   const addFriendName = (friendName) => {
+    // random unique id genrator
     let uniqueId = () => {
       return Math.floor((1 + Math.random()) * 0x10000)
         .toString(16)
         .substring(1);
     };
+    // pushes new object
     setName([
       ...name,
       {
@@ -32,7 +34,8 @@ const FriendInputLogic = () => {
       }
       return friend;
     });
-    setName(updatedFriends);
+    // updates friends by sorting favrourite friend as top
+    setName(updatedFriends.sort((x, y) => y.isFavroute - x.isFavroute));
   };
 
   // delete Friend

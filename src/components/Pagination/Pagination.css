@@ -1,0 +1,35 @@
+.pagination {
+    display: inline-block;
+  }
+  
+  .page-item {
+    color: rgb(160, 157, 157);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .page-item a{
+    color: rgb(160, 157, 157);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;  
+  }
+
+  .page-item a.active {
+    background-color: #6e47db;
+    color: white;
+  }
+  
+  .page-item a:hover:not(.active) {background-color: #ddd;}
+
+  .page-item a {
+    border-radius: 5px;
+  }
+  
+  .page-item a.active {
+    border-radius: 5px;
+  }
+
+  .page-item a {
+  transition: background-color .3s;
+}
